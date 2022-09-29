@@ -1,0 +1,44 @@
+@font-face {
+    font-family: fuentePrincipal;
+    src: url("/font/Brandbe\ Extra\ Bold.otf");
+}
+:root {
+    --fuenteSecundaria: 'Poiret One', cursive;
+    --primario: #1073BA;
+    --secundario: #00DA55;
+    --gris: #3B3B3B;
+    --blanco: #FFFFFF;
+    --negro: #226900;
+    --grisclaro: #E1E1E1;
+
+    --separacion: 3em;
+}
+
+body{
+    font-family: var(--fuenteSecundaria);
+    font-size: 16px;
+    /* font-family: "fuente-principal" */
+}
+.contenedor{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+h1, h2, h3{
+
+}
+/*Utilidades*/
+.text-center{
+    text-align: center;
+}
+
+.header{
+    background-color: var(--negro);
+    padding: calc(var(--separacion)*2) 0;
+    color: var(--blanco)
+}
